@@ -1,5 +1,27 @@
+/* main style css for tsuki usagi */
+
+
+@import url('https://fonts.googleapis.com/css?family=Asap|Quicksand');
+
+
 body{
 
 	background-color: pink;
 
+}
+
+p{
+	font-family: Asap;
+}
+
+h1,h2,h3,h4,h5,h6{
+	font-family: Quicksand;
+}
+
+/* containers */
+
+.main{
+	width: 80vw;
+	max-width: 2000px;
+	margin-left: 10vw;
 }
